@@ -1,0 +1,161 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+.corpo{
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(124, 124, 122);
+}
+
+
+.titulo{
+text-align: center;
+margin: 30px;
+font-weight: bold;
+font-size: 35px;
+color: white;
+}
+.conteudo{
+    margin: auto;
+    width: 500px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 20px;
+    box-shadow:  0 0 20px black;
+    color:rgba(0, 0, 0, 0.705);
+    background-color: rgb(245, 245, 229);
+}
+.ano-nasc{
+display: flex;
+padding: 20px;
+}
+.p1{
+margin-right: 20px;
+
+}
+.sexo{
+display: flex;
+padding-left: 20px;
+
+}
+.radio{
+margin: 0 10px 0 10px;
+
+}
+.botao{
+    padding: 5px;
+    margin: 10px 0px 10px 20px;
+    font-weight: bold;
+}
+.paragrafo-resultado{
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 20px;
+   
+}
+.imagem{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+@media screen and (max-width:500px){
+
+              
+                .titulo{
+                text-align: center;
+                margin: 30px;
+                font-weight: bold;
+                font-size: 30px;
+                text-shadow: 2px 2px 3px black;
+                }
+                .ano-nasc{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+
+                .conteudo{
+                margin: auto;
+                width: 370px;
+                font-size: 20px;
+                font-weight: bolder;
+                border-radius: 20px;
+                
+            
+            }
+                .imagem{
+                padding-top: 20px;
+                padding-bottom: 20px;
+                display: flex;
+                justify-content: center;
+            
+            }
+                .botao{
+                padding: 5px;
+                margin: 20px 0px 20px 20px;
+                font-weight: bold;
+                background-color: rgb(175, 179, 182);
+                border-radius: 5px;
+            }
+
+                #txtano{
+                font-size: 20px;
+                width: 100px;
+                text-align: center;
+                padding: 5px;
+                border: 2px solid black;
+                border-radius: 5px;
+
+                }
+                #txtano:focus{
+                border: 3px solid rgb(41, 113, 229);
+                outline: none;
+                }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
